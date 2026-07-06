@@ -1,0 +1,67 @@
+{
+  "chefs": [
+    { "id": 1, "name": "Марко Росси", "rating": 4.9 },
+    { "id": 2, "name": "Анна Светлова", "rating": 4.5 },
+    { "id": 3, "name": "Дмитрий Волков", "rating": 3.8 }
+  ],
+  "slots": [
+    {
+      "id": 1,
+      "start_time": "2026-07-07T18:00:00",
+      "menu_name": "Итальянская классика (Паста и пицца)",
+      "chef_id": 1,
+      "capacity": 12,
+      "status": "active",
+      "equipment": {
+        "total_rental_sets": 8,
+        "booked_rental_sets": 2
+      }
+    },
+    {
+      "id": 2,
+      "start_time": "2026-07-08T19:00:00",
+      "menu_name": "Азиатский фуршет (Вок и суши)",
+      "chef_id": 2,
+      "capacity": 8,
+      "status": "active",
+      "equipment": {
+        "total_rental_sets": 5,
+        "booked_rental_sets": 5
+      }
+    },
+    {
+      "id": 3,
+      "start_time": "2026-07-10T14:00:00",
+      "menu_name": "Французские десерты (Сложный класс)",
+      "chef_id": 1,
+      "capacity": 8,
+      "status": "active",
+      "equipment": {
+        "total_rental_sets": 0,
+        "booked_rental_sets": 0
+      }
+    },
+    {
+      "id": 4,
+      "start_time": "2026-07-12T18:00:00",
+      "menu_name": "Грузинское застолье",
+      "chef_id": 3,
+      "capacity": 12,
+      "status": "cancelled_by_studio",
+      "cancellation_reason": "Срыв поставки продуктов",
+      "equipment": {
+        "total_rental_sets": 10,
+        "booked_rental_sets": 0
+      }
+    }
+  ],
+  "clients": [
+    {
+      "id": 101,
+      "full_name": "Елена Тестова",
+      "phone": "+79990001122",
+      "allergies_info": "Нет аллергий",
+      "loyalty_status": "standard"
+    }
+  ]
+}
